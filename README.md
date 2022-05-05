@@ -12,9 +12,9 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
 ### Gateway
 * Parameterization required. Can be done with VCP or ODIS.
 * Module `0x19`, address `0x1200`, upload data:
-  * `0xB7, 0x38` - with AudiDriveSelect, no efficiency mode
-  * `0x11, 0x00` - with AudiDriveSelect, with efficiency mode
-  * `0x3A, 0x17` - no AudiDriveSelect
+  * `B7 38 A8 6A` - with AudiDriveSelect (comfort, auto, dynamic)
+  * `11 00 97 60` - with AudiDriveSelect (comfort, auto, dynamic, efficiency)
+  * `3A 17 73 E5` - no AudiDriveSelect
 
 ### Infotainment
 #### Audi RMC2
@@ -26,6 +26,12 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
 * Check this for more details: https://github.com/mrfixpl/audi-rmc-coding-adaptation-datasets
 
 #### Audi MMI 3G+ (HN+)
+
+## Research
+* Last 4 bytes in gateway dataset is CRC-32 checksum,
+* Last 2 bytes in RMC dataset is CRC-16/CCITT-FALSE checksum,
+* Modes in order: Individual, Comfort, Auto, Dynamic, Offroad, Efficiency, Race.
+* Individual settings in order: engine/transmission, suspension, steering, 4x4, exhaust, belt tensioner, ACC. Additionally: contour seats.
 
 ## Credits, reference, links
 * Huge thanks to everyone involved in this research!
