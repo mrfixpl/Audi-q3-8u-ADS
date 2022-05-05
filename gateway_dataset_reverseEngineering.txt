@@ -42,15 +42,15 @@
     FF //set to profile after key off key on (FF = no change?)
     00
     00
-    22
+    22 //engine and transmission?
     00
-    02
-    02
-    02
+    02 //suspension?
+    02 //steering?
+    02 //sport differential?
     00
     00
     00
-    22
+    22 //exhaust?
     00
     00
     00
