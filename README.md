@@ -31,7 +31,7 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
 * Last 4 bytes in gateway dataset is CRC-32 checksum,
 * Last 2 bytes in RMC dataset is CRC-16/CCITT-FALSE checksum,
 * Modes in order: Individual, Comfort, Auto, Dynamic, Offroad, Efficiency, Race.
-* Individual settings in order: engine/transmission, suspension, steering, 4x4, exhaust, belt tensioner, ACC. Additionally: contour seats.
+* Individual settings in order: engine/transmission, suspension, steering, 4x4, exhaust, belt tensioner, ACC. Additionally: contour seats, cornering lights.
 
 ## Credits, reference, links
 * Huge thanks to everyone involved in this research!
