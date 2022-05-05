@@ -26,3 +26,8 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
 * Check this for more details: https://github.com/mrfixpl/audi-rmc-coding-adaptation-datasets
 
 #### Audi MMI 3G+ (HN+)
+
+## Credits, reference, links
+* Huge thanks to everyone involved in this research!
+* Checksum calculator: https://crccalc.com/
+* OBDeleven diagnostic interface (ref link): http://obdeleven.com/?src=link&ref=Zy245Iacqc6bMTHh
