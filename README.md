@@ -1,6 +1,8 @@
 # Audi Q3 (8U) AudiDriveSelect (ADS) activation
 Enabling AudiDriveSelect in Audi Q3 (8U).
 
+![Audi RMC with AudiDriveSelect screen option](https://github.com/mrfixpl/Audi-q3-8u-ADS/blob/main/images/RMC-AudiDriveSelect.jpg?raw=true)
+
 ## What is ADS?
 ADS is short for Audi Drive Select. It allows the driver to choose from different driving modes: comfort, normal, auto, dynamic, efficiency, individual. Depending on installed options, there are settings for engine, gearbox, suspension, exhaust, cornering lights.
 
