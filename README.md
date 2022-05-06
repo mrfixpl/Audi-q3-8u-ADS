@@ -1,5 +1,5 @@
 # Audi Q3 (8U) AudiDriveSelect (ADS) activation
-Enabling AudiDriveSelect in Audi Q3 (8U).
+Enabling AudiDriveSelect (a.k.a. Charisma, Drive modes) in Audi Q3 (8U) with 2.0TDI 103kW engine.
 
 ![Audi RMC with AudiDriveSelect screen option](https://github.com/mrfixpl/Audi-q3-8u-ADS/blob/main/images/RMC-AudiDriveSelect.jpg?raw=true)
 
