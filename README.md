@@ -19,6 +19,9 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
 ### Infotainment
 #### Audi RMC2
 * Parameterization required. Can be done with VCP or ODIS.
+* Module `0x5F`, address `0xF00610`, upload dataset:
+  * `0xF00610_CarMenu-withADS` - with AudiDriveSelect menu
+  * `0xF00610_CarMenu-withoutADS` - without AudiDriveSelect menu
 * Check this for more details: https://github.com/mrfixpl/audi-rmc-coding-adaptation-datasets
 
 #### Audi RMC4
