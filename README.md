@@ -23,6 +23,7 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
   * `0xF00610_CarMenu-withADS` - with AudiDriveSelect menu
   * `0xF00610_CarMenu-withoutADS` - without AudiDriveSelect menu
 * Check this for more details: https://github.com/mrfixpl/audi-rmc-coding-adaptation-datasets
+* Parameterization with OBDeleven: https://www.youtube.com/watch?v=jsi80Yr3aoY
 
 #### Audi RMC4
 * Parameterization required. Can be done with VCP or ODIS.
@@ -42,4 +43,5 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
 * MQB-FPA: https://github.com/jilleb/MQB-FPA/wiki/dataset
 * ADS modes in A6 C7: https://www.audizine.com/forum/showthread.php/433578-Compiled-Drive-Select-VAG-COM-codes?p=7823311&viewfull=1#post7823311
 * Checksum calculator: https://crccalc.com/
+* Parameterization with OBDeleven: https://www.youtube.com/watch?v=jsi80Yr3aoY
 * OBDeleven diagnostic interface (ref link): http://obdeleven.com/?src=link&ref=Zy245Iacqc6bMTHh
