@@ -12,8 +12,8 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
 ### Gateway
 * Parameterization required. Can be done with VCP or ODIS.
 * Module `0x19`, address `0x1200`, upload dataset:
-  * `0x1200_ADS_withoutEfficiency` - with AudiDriveSelect (comfort, auto, dynamic)
-  * `0x1200_ADS_withEfficiency` - with AudiDriveSelect (comfort, auto, dynamic, efficiency)
+  * `0x1200_ADS-withoutEfficiency` - with AudiDriveSelect (comfort, auto, dynamic)
+  * `0x1200_ADS-withEfficiency` - with AudiDriveSelect (comfort, auto, dynamic, efficiency)
   * `0x1200_noADS` - no AudiDriveSelect
 
 ### Infotainment
