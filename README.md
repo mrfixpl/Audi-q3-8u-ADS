@@ -12,28 +12,28 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
 ### Gateway
 * Parameterization required. Can be done with VCP or ODIS.
 * Module `0x19`, address `0x1200`, upload dataset:
-  * `0x1200_ADS-withoutEfficiency` - with AudiDriveSelect (comfort, auto, dynamic)
-  * `0x1200_ADS-withEfficiency` - with AudiDriveSelect (comfort, auto, dynamic, efficiency)
-  * `0x1200_noADS` - no AudiDriveSelect
+  * `datasets/19-gateway/0x1200_ADS-withoutEfficiency` - with ADS (comfort, auto, dynamic)
+  * `datasets/19-gateway/0x1200_ADS-withEfficiency` - with ADS (comfort, auto, dynamic, efficiency)
+  * `datasets/19-gateway/0x1200_noADS` - no AudiDriveSelect
 
 ### Infotainment
-#### Audi RMC2
+#### Audi `RMC2`
 * Parameterization required. Can be done with VCP, ODIS, OBDeleven.
 * Module `0x5F`, address `0xF00610`, upload dataset:
-  * `0xF00610_CarMenu-withADS` - with AudiDriveSelect menu
-  * `0xF00610_CarMenu-withoutADS` - without AudiDriveSelect menu
+  * `datasets/5f-rmc2/0xF00610_CarMenu-withADS` - with AudiDriveSelect menu
+  * `datasets/5f-rmc2/0xF00610_CarMenu-withoutADS` - without AudiDriveSelect menu
 * Check this for more details: https://github.com/mrfixpl/audi-rmc-coding-adaptation-datasets
 * Parameterization with OBDeleven: https://www.youtube.com/watch?v=jsi80Yr3aoY
 
-#### Audi RMC4
+#### Audi `RMC4`
 * Parameterization required. Can be done with VCP, ODIS, OBDeleven.
 * Module `0x5F`, address `0xF00710`, upload dataset:
-  * `0xF00710_CarMenu-withADS` - with AudiDriveSelect menu
-  * `0xF00710_CarMenu-withoutADS` - without AudiDriveSelect menu
+  * `datasets/5f-rmc4/0xF00710_CarMenu-withADS` - with AudiDriveSelect menu
+  * `datasets/5f-rmc4/0xF00710_CarMenu-withoutADS` - without AudiDriveSelect menu
 * Check this for more details: https://github.com/mrfixpl/audi-rmc-coding-adaptation-datasets
 * Parameterization with OBDeleven: https://www.youtube.com/watch?v=jsi80Yr3aoY
 
-#### Audi MMI 3G+ (HN+)
+#### Audi MMI 3G+ (`HN+`)
 * Green Engineering Menu access required - need to enable developer mode first
   * Module `0x5F`, adaptation, channel `6`, new value `1`.
   * Reboot unit with button combination: **[BACK]** + **[Control Wheel]** + **[Upper-Right]**
