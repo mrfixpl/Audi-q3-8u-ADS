@@ -9,14 +9,17 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
 ## Tools required
 
 ## Procedure
-### Gateway
+### `0x19` - Gateway
 * Parameterization required. Can be done with VCP or ODIS.
 * Module `0x19`, address `0x1200`, upload dataset:
   * `datasets/19-gateway/0x1200_ADS-withoutEfficiency` - with ADS (comfort, auto, dynamic)
   * `datasets/19-gateway/0x1200_ADS-withEfficiency` - with ADS (comfort, auto, dynamic, efficiency)
   * `datasets/19-gateway/0x1200_noADS` - no AudiDriveSelect
 
-### Infotainment
+### `0x55` - Headlight range
+* Module `0x55`, Long Coding, Byte `06`, Bit `7` (Charisma), enable.
+
+### `0x5F` - Infotainment
 #### Audi `RMC2`
 * Parameterization required. Can be done with VCP, ODIS, OBDeleven.
 * Module `0x5F`, address `0xF00610`, upload dataset:
