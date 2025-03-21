@@ -20,19 +20,11 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
 * Module `0x55`, Long Coding, Byte `06`, Bit `7` (Charisma), enable.
 
 ### `0x5F` - Infotainment
-#### Audi `RMC2`
+#### Audi RMC2
 * Parameterization required. Can be done with VCP, ODIS, OBDeleven.
 * Module `0x5F`, address `0xF00610`, upload dataset:
   * `datasets/5f-rmc2/0xF00610_CarMenu-withADS` - with AudiDriveSelect menu
   * `datasets/5f-rmc2/0xF00610_CarMenu-withoutADS` - without AudiDriveSelect menu
-* Check this for more details: https://github.com/mrfixpl/audi-rmc-coding-adaptation-datasets
-* Parameterization with OBDeleven: https://www.youtube.com/watch?v=jsi80Yr3aoY
-
-#### Audi `RMC4`
-* Parameterization required. Can be done with VCP, ODIS, OBDeleven.
-* Module `0x5F`, address `0xF00710`, upload dataset:
-  * `datasets/5f-rmc4/0xF00710_CarMenu-withADS` - with AudiDriveSelect menu
-  * `datasets/5f-rmc4/0xF00710_CarMenu-withoutADS` - without AudiDriveSelect menu
 * Check this for more details: https://github.com/mrfixpl/audi-rmc-coding-adaptation-datasets
 * Parameterization with OBDeleven: https://www.youtube.com/watch?v=jsi80Yr3aoY
 
@@ -46,6 +38,13 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
   * Go to `car/cardevicelist/carisma` and enable it.
   * Go to `car/carmenuoperation/carisma` and set it to `5`.
   * Reboot unit with button combination: **[BACK]** + **[Control Wheel]** + **[Upper-Right]**
+
+## Button
+### Part replacement
+TODOOO
+
+## Wiring
+TODOOO
 
 ## Research
 * Last 4 bytes in gateway dataset is CRC-32 checksum,
