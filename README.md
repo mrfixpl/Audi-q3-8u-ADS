@@ -43,8 +43,15 @@ ADS is short for Audi Drive Select. It allows the driver to choose from differen
 ### Part replacement
 TODOOO
 
-## Wiring
-TODOOO
+### Wiring
+ADS button can be found on wiring diagrams as element `E735`. It shares the `T10f` 10-pin connector with Engine Auto Start/Stop button and Park Assist Button.
+
+3 pins are related to the ADS button:
+* `T10f/1` - GND (ground)
+* `T10f/5` - Term58 (button backlight)
+* `T10f/9` - SIG (button pressed short to ground)
+
+Most likely you will need to wire only the SIG line, from the button (`E735; T10f/9`) to the BCM module (`J519; T52c/37`).
 
 ## Research
 * Last 4 bytes in gateway dataset is CRC-32 checksum,
