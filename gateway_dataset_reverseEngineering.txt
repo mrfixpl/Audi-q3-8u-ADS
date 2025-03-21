@@ -45,7 +45,7 @@
     11 00 97 60 // CRC-32 checksum
 
 
-// Single mode settings
+// Single mode details
     FF //set to profile after key off key on? (FF = no change?)
     00
     00
@@ -64,3 +64,17 @@
     00
     00
     12 //set to profile after key off key on? (12 = go to Auto?)
+
+
+// options supported by RMC / MMI
+// I need to link this into the dataset options
+    Engine & Gearbox
+    Suspension (Air suspension)
+    Steering (support force)
+    Dynamic Steering (ratio)
+    Sport differential
+    Side Cushions (seat)
+    Cornering Light / AFS / Background Lighting
+    Exhaust / Engine Sound
+    Belt Tensioner
+    Adaptive Cruise Control
